@@ -1,0 +1,70 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+img{
+	background-size: cover;
+	background-position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+
+.main{
+	position: absolute;
+	top: 7%;
+	left: 35%;
+	width:500px;
+	padding: 15px;
+	border-radius: 3px;
+	box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+}
+
+.main input{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+}
+
+.main button{
+	width: 50%;
+	padding: 10px 15px;
+	margin: 8px 100px;
+	box-sizing: border-box;
+}
+
+.content div{
+	background-color: #83C5BE;
+	margin: 5px;
+	padding: 15px;
+	border-radius: 3px;
+	color: black;
+	font-size: 25px;
+	box-shadow: 0px -1px 10px -4px rgba(0,0,0,0.5);
+}
+
+.delete, .update{
+	position: absolute;
+	top: 100px;
+	left: 150px;	
+}
+
+.delete p,a{
+	font-size: 40px;
+	margin-bottom: 10px;	
+}
+
+.update{
+	font-size: 30px;
+
+}
+
+.update h3,input{
+	margin: 0px 10px 30px 0px;
+	padding: 10px 10px;
+	display: block;
+}
+
+
+
+

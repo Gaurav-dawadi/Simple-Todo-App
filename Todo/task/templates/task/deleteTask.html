@@ -1,0 +1,15 @@
+{% extends 'task/dashboard.html' %}
+
+{% block main %}
+
+<div class="delete">
+	<p>Are you sure you want to delete "{{tasks}}"?</p>
+	<a class="btn btn-info" href="{% url 'add' %}" >Cancel</a>
+
+	<form method="POST" action="">
+		{% csrf_token %}
+		<input class="btn btn-success" type="submit" name="Confirm">
+	</form>	
+</div>
+
+{% endblock %}
